@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DraganSlayer", "DraganSlayer\DraganSlayer.csproj", "{BF980501-E710-45E7-8535-BC971B49B15E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlayerService", "SlayerService\SlayerService.csproj", "{8E8B6E81-7080-4957-A7F8-3D45A461C14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlayerWeb", "SlayerWeb\SlayerWeb.csproj", "{2BAE8FFE-DE0D-457F-886F-0BB1A854117B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{BF980501-E710-45E7-8535-BC971B49B15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF980501-E710-45E7-8535-BC971B49B15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF980501-E710-45E7-8535-BC971B49B15E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8B6E81-7080-4957-A7F8-3D45A461C14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8B6E81-7080-4957-A7F8-3D45A461C14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8B6E81-7080-4957-A7F8-3D45A461C14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8B6E81-7080-4957-A7F8-3D45A461C14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAE8FFE-DE0D-457F-886F-0BB1A854117B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAE8FFE-DE0D-457F-886F-0BB1A854117B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAE8FFE-DE0D-457F-886F-0BB1A854117B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAE8FFE-DE0D-457F-886F-0BB1A854117B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
