@@ -1,0 +1,62 @@
+
+/ProcurementPortal/Enbridge.ProcurementPortal/Enbridge.ProcurementPortal.csproj.user
+/ProcurementPortal/ProcurementPortal.4.5.resharper.user
+/ProcurementPortal/ProcurementPortal.suo
+/ProcurementPortal/_ReSharper.ProcurementPortal
+/ProcurementPortal/Enbridge.ProcurementPortal/Enbridge.ProcurementPortal.wsp
+/ProcurementPortal/Enbridge.ProcurementPortal/obj
+/ProcurementPortal/Enbridge.ProcurementPortal/bin
+/ProcurementPortal/Scripts/Utils
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+*.dotCover
+[Tt]est[Rr]esult*
+*~
+*.~*
+results.xml
+packages/
+*.dbmdl
+*output.config
+*.crunch*.local.xml
+
+#exceptions to allow nunit binaries
+!lib/nunit/bin
+!lib/nunit/bin/net-1.1/*.exe
+!lib/nunit/bin/net-2.0/*.exe
+!lib/CFNet_Powertools/NetCFSvcUtil.exe
+
+#Ignore config files unless you really need
+#to check in a change
+src/Handset/SalesInterface/App.config
+src/Server/AdministrationWebApp/Web.config
+*svclog
+
+*crunchproject*
+*crunchsolution*
+
+solution.disposechecksettings
