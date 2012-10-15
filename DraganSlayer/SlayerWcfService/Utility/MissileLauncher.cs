@@ -10,7 +10,7 @@ using System.Media;
 using System.Threading;
 using UsbLibrary;
 
-namespace SlayerService
+namespace SlayerWcfService
 {
     class MissileLauncher
     {

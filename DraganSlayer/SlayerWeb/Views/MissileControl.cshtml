@@ -1,0 +1,17 @@
+﻿<script type="text/javascript">
+    jQuery.support.cors = true;
+    var serviceLocation = "http://localhost:51427/SlayerService.svc";
+
+    function Fire() {
+        ajax.post(serviceLocation + "/FireMissle");
+    }
+ </script>
+
+
+<h3>Missile Control</h3>
+
+<button>Up</button>
+<button>Down</button>
+<button>Left</button>
+<button>Right</button>
+<button onclick="Fire();">Fire!</button>

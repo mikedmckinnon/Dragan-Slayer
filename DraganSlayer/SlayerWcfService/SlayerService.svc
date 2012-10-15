@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SlayerWcfService.SlayerService" CodeBehind="SlayerService.svc.cs" %>
